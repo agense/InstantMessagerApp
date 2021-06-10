@@ -1,0 +1,82 @@
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: none!important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: $accentBeige;
+    border-color: $accentBeige
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: #fff;
+    background-color: $accentBeigeDark;
+    border-color: $accentBeigeDark;
+}
+.btn-link {
+    color: #656565;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+.btn-link:hover {
+    color: #111;
+    text-decoration: underline;
+}
+
+.btn-outline{
+    background: transparent;
+    border: 1px solid #b59c79;
+}
+.btn-accent-blue-border {
+    background: transparent;
+    border: 1px solid #4db6ac;
+    color: #4db6ac;
+}
+.btn-accent-blue-border:hover{
+    background: #4db6ac;
+    color: #fff;
+}
+.btn-accent-blue {
+    background: #4db6ac;
+    border: 1px solid #4db6ac;
+    color: #fff;
+}
+.btn-accent-beige{
+    background: #82b1ff;
+    border: 1px solid #82b1ff;
+    color: #fff;
+}
+.btn-accent-beige-border{
+    background: transparent;
+    border: 1px solid #82b1ff;
+    color: #82b1ff;
+}
+.btn-accent-beige-border:hover{
+    background: #82b1ff;
+    color: #fff;
+}
+.btn-black{
+    background: #111;
+    border: 1px solid #111;
+    color: #fff!important;
+}
+.btn-black-border{
+    background: transparent;
+    border: 1px solid #111;
+    color: #111;
+}
+.btn-black-border:hover{
+    background: #111;
+    color: #fff!important;
+}
+.btn-sm-custom{
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: 0.5rem 0.75rem;
+    letter-spacing: 0.05rem;
+}
+.btn-md-custom{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.05rem;
+    padding: 0.5rem 1.5rem;
+}

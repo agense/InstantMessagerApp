@@ -1,0 +1,26 @@
+body{
+    background:#fff;
+}
+#app{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.navbar{
+    z-index:999;
+}
+.nav-auth {
+    margin-right: 0.5rem!important;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.separator{
+    display:block;
+    height:1px;
+    width:100%;
+    border-bottom:1px solid rgba(0, 0, 0, 0.125);
+}
+#toast-container > .toast-success {
+    background-color: #00bfa5;
+}
